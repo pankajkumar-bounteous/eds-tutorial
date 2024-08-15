@@ -1,4 +1,8 @@
 {
+  "project": "My EDS Project",
+  "host": "www.mydomain.prod",
+  "plugins": [
+	  {
 	"id": "asset-library",
 	"title": "My Assets",
 	"environments": [ "edit" ],
@@ -7,4 +11,6 @@
 	"includePaths": [ "*" ],
 	"passConfig": true,
 	"paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+	}
+  ]
 }
